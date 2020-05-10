@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=>=dev-lang/mono-4.0.2.5 dev-dotnet/msbuild-tasks-api
+DESCRIPTION='Microsoft.NET.Sdk' for msbuild
+EAPI=7
+HOMEPAGE=https://github.com/dotnet/sdk/
+IUSE=net45 msbuild_targets_msbuild15-9 msbuild_targets_msbuild15-7 msbuild_targets_msbuild15-4 +msbuild net45
+KEYWORDS=amd64
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-4.0.2.5
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://codeload.github.com/dotnet/sdk/tar.gz/4908e1f6d532cb823b6889816c49fb5134b0278c -> microsoft-net-sdk-2.1.300.tar.gz
+_eclasses_=dotnet	978985b1c88cff3d70355bdc2fba673f	eutils	fcb2aa98e1948b835b5ae66ca52868c5	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	msbuild-framework	b4fe27dd62f230c8f78ce908fa2c5d62
+_md5_=68972b69fa3657797439cdd39fc9ad15
