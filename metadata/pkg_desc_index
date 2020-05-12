@@ -4,6 +4,7 @@ app-eselect/eselect-msbuild 15.9: msbuild eselect module
 app-misc/aha 0.4.7.2: Ansi HTML Adapter
 app-office/projectlibre-bin 1.6.2: A free and open source desktop alternative to Microsoft Project
 dev-db/sharphsql 1.4-r20150714: Small & embebdded database engine witten in C#, port of the Hypersonic SQL v1.4 (HSQL) Java project
+dev-dotnet/apachemodmono-webadmnistration 0.0.0: API for managing Apache and mod-mono-server4
 dev-dotnet/aspnetwebstack 2014.10.27: Mono copy of the Microsoft ASP.NET Web Stack (MVC, Razor etc)
 dev-dotnet/buildtools 1.0.27: Build tools that are necessary for building the .NET Core projects
 dev-dotnet/castle-core 1.2.0-r2 4.0.0_beta1-r1: including Castle DynamicProxy, Logging Services and DictionaryAdapter
