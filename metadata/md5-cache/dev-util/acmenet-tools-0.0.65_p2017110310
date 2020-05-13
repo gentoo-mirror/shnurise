@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999
+DESCRIPTION=The C# port of ANTLR 3
+EAPI=7
+HOMEPAGE=https://github.com/ArsenShnurkov/acme.net
+IUSE=+net45 debug source net45
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://codeload.github.com/ArsenShnurkov/acme.net/tar.gz/97e7b1a1c44b6b4505b7b56de9594e2709fe1fd0 -> dev-util-acmenet-tools-0.0.65_p2017110310.tar.gz
+_eclasses_=dotnet	978985b1c88cff3d70355bdc2fba673f	eutils	fcb2aa98e1948b835b5ae66ca52868c5	mono-env	059a05efbba66d5bdcc2dd74d91f82f8
+_md5_=e321f62cd4b0c35b416cd091be5824fc
