@@ -11,4 +11,4 @@ RESTRICT=mirror
 SLOT=15.9
 SRC_URI=https://github.com/Microsoft/msbuild/archive/88f5fadfbef809b7ed2689f72319b7d91792460e.tar.gz -> msbuild-Microsoft-15.9.20.62856.tar.gz mskey? ( https://github.com/Microsoft/msbuild/raw/master/src/MSFT.snk ) https://github.com/mono/mono/raw/master/mcs/class/mono.snk
 _eclasses_=dotnet	978985b1c88cff3d70355bdc2fba673f	eutils	fcb2aa98e1948b835b5ae66ca52868c5	gac	0be4d7cb668d0ac74e14fe9b1562547d	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	msbuild-framework	b4fe27dd62f230c8f78ce908fa2c5d62	xbuild	c67583c573f4ca4d63e61dcd2b353b51
-_md5_=56b3dab727ec929f1daee025359c67f7
+_md5_=c08f7dd0911d4dcc439f57c2d0560121
