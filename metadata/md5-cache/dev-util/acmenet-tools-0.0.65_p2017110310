@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://codeload.github.com/ArsenShnurkov/acme.net/tar.gz/97e7b1a1c44b6b4505b7b56de9594e2709fe1fd0 -> dev-util-acmenet-tools-0.0.65_p2017110310.tar.gz
-_eclasses_=dotnet	978985b1c88cff3d70355bdc2fba673f	eutils	fcb2aa98e1948b835b5ae66ca52868c5	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	mono-pkg-config	1a9d7aab64efd52c27489dc299843e3a	msbuild	9a7a8e4c642748bedc5b06124f0ed58c	msbuild-framework	f96a028bee4cc5be21734888b1ced34e
+_eclasses_=dotnet	978985b1c88cff3d70355bdc2fba673f	eutils	fcb2aa98e1948b835b5ae66ca52868c5	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	mono-pkg-config	1a9d7aab64efd52c27489dc299843e3a	msbuild	9a7a8e4c642748bedc5b06124f0ed58c	msbuild-framework	881ba813b68ac74f6351334ad7eea95b
 _md5_=9fccf9e8e65982da76d1422ca9ad3fa8
