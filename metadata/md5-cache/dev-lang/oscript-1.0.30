@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=dev-dotnet/newtonsoft-json >=dev-dotnet/dotnetzip-semverd-1.9.3-r4
+DESCRIPTION=scripting interpreter for 1C-like language (mono based)
+EAPI=7
+HOMEPAGE=https://github.com/EvilBeaver/OneScript
+IUSE=+net45 debug developer net45
+KEYWORDS=~amd64
+LICENSE=MPL-2.0
+RDEPEND=dev-dotnet/newtonsoft-json >=dev-dotnet/dotnetzip-semverd-1.9.3-r4
+RESTRICT=mirror
+SLOT=1.30
+SRC_URI=https://codeload.github.com/EvilBeaver/OneScript/tar.gz/85b3088532a7c97574ea837945745622beba9f2c -> oscript-1.0.30.tar.gz
+_eclasses_=dotnet	ba3141f6181c0b352be28c884447e9a9	eutils	fcb2aa98e1948b835b5ae66ca52868c5	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_md5_=8e3457be5364f31801f4b459e65952c5

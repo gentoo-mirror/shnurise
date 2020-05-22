@@ -35,6 +35,7 @@ dev-gaclibs/Autopsy-Formats-PeCoff 1.0: Safe and static parsing for PE/COFF/LIB 
 dev-gaclibs/github-api 0.0-r20150331: C# API for github, based on RestSharp
 dev-lang/mono 5.2.0.224 5.4.1.6 5.18.0.240: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/mono-patched 5.9.0.398 5.9.0.569: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/oscript 1.0.30: scripting interpreter for 1C-like language (mono based)
 dev-util/acmenet-tools 0.0.65_p2017110310: Console utility for requesting certificates
 dev-util/asmspy 1.2.0: Simple command line assembly reference checker
 dev-util/gplex-dbremner 1.2.2_p2015112101-r1: C# version of lex (Garden Point Lex)
