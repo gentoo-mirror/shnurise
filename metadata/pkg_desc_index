@@ -24,7 +24,6 @@ dev-dotnet/msbuildtasks 1.5.0.260_pre-r1: The MSBuild Community Tasks Project is
 dev-dotnet/ndepend-path 0.0_p20151123-r5: C# framework for paths operations: Absolute, Drive Letter, UNC, Relative, prefix
 dev-dotnet/newtonsoft-json 6.0.8-r1: Json.NET is a popular high-performance JSON framework for .NET
 dev-dotnet/nhibernate-iesi-collections 4.0.2-r2: C#, LinkedHashSet<T>, SynchronizedSet<T>, ReadOnlySet<T>
-dev-dotnet/nuget 1.1-r1 2.8.1-r1: Nuget - .NET Package Manager
 dev-dotnet/pliant 0.4.2.1: modified Earley parser in C# inspired by the Marpa Parser project
 dev-dotnet/roslyn-tools 0.0.0_p2019011903: 'Tools used in Roslyn based repos
 dev-dotnet/slntools 1.1.3_p201508170-r2: library for merging .sln files, and cli-tool
