@@ -19,7 +19,7 @@ dev-dotnet/microsoft-extensions-commandlineutils 2.3.4: Command line parsing and
 dev-dotnet/microsoft-net-sdk 2.1.300: 'Microsoft.NET.Sdk' for msbuild
 dev-dotnet/msbuild-defaulttasks 15.9.20.62856: default tasks for Microsoft Build Engine (MSBuild)
 dev-dotnet/msbuild-roslyn-csc 15.9-r1: C# compiler with rich code analysis APIs
-dev-dotnet/msbuild-tasks-api 15.4.8.0-r2 15.7.180.61344-r2 15.9.20.62856-r3: msbuild libraries for writing Task-derived classes
+dev-dotnet/msbuild-tasks-api 15.4.8.0-r2 15.7.180.61344-r2 15.9.20.62856-r3 15.9.20.62856-r4: msbuild libraries for writing Task-derived classes
 dev-dotnet/msbuildtasks 1.5.0.260_pre-r1: The MSBuild Community Tasks Project is an open source project for MSBuild tasks.
 dev-dotnet/ndepend-path 0.0_p20151123-r5: C# framework for paths operations: Absolute, Drive Letter, UNC, Relative, prefix
 dev-dotnet/netinfra 0.0.0_p4-r1: classes to store configuration of computers
@@ -41,7 +41,7 @@ dev-util/asmspy 1.2.0: Simple command line assembly reference checker
 dev-util/gplex-dbremner 1.2.2_p2015112101-r1: C# version of lex (Garden Point Lex)
 dev-util/gppg-dbremner 1.5.2_p2015112101-r1: C# version of lex (Garden Point Lex)
 dev-util/monodevelop 5.9.5.9 5.10.0.609 6.1_p2016062206: Integrated Development Environment for .NET
-dev-util/msbuild 15.9.20.62856-r3: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
+dev-util/msbuild 15.9.20.62856-r3 15.9.20.62856-r4: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9: 
 dev-util/naive-language-tools 1.13.11.16: Free, open-source C# lexer and GLR parser suite
 dev-util/nunit2 2.6.4_p2015011102-r2: NUnit test suite for mono applications
