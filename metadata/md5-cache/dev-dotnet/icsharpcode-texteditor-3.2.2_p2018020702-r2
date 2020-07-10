@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/ICSharpCode.TextEditor/archive/38c21a56f969047ef109b400ac5a57ca9df097fa.zip -> icsharpcode-texteditor-3.2.2_p2018020702.zip
-_eclasses_=dotnet	ba3141f6181c0b352be28c884447e9a9	eutils	fcb2aa98e1948b835b5ae66ca52868c5	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	mono-pkg-config	1a9d7aab64efd52c27489dc299843e3a
+_eclasses_=dotnet	ba3141f6181c0b352be28c884447e9a9	eutils	fcb2aa98e1948b835b5ae66ca52868c5	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	mono-pkg-config	45bd2ab7612ab83743febe37efcea4e0
 _md5_=326c227a3f6c1c714bdaa5d2192bd575

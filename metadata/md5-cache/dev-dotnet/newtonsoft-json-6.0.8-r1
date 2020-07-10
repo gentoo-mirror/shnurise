@@ -11,5 +11,5 @@ RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/JamesNK/Newtonsoft.Json/archive/1497343173a181d678b4c9bbf60250a12f783f1c.zip -> newtonsoft-json-6.0.8.zip https://github.com/mono/mono/raw/master/mcs/class/mono.snk
-_eclasses_=dotnet	ba3141f6181c0b352be28c884447e9a9	eutils	fcb2aa98e1948b835b5ae66ca52868c5	gac	0be4d7cb668d0ac74e14fe9b1562547d	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	mono-pkg-config	1a9d7aab64efd52c27489dc299843e3a	xbuild	c67583c573f4ca4d63e61dcd2b353b51
+_eclasses_=dotnet	ba3141f6181c0b352be28c884447e9a9	eutils	fcb2aa98e1948b835b5ae66ca52868c5	gac	0be4d7cb668d0ac74e14fe9b1562547d	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	mono-pkg-config	45bd2ab7612ab83743febe37efcea4e0	xbuild	c67583c573f4ca4d63e61dcd2b353b51
 _md5_=e95aa5a05d12d6911300c208445582f9
