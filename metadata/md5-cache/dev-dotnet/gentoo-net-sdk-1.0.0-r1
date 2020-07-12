@@ -10,4 +10,4 @@ RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/mono-packaging-tools/archive/fe4862291044ec87e2ab9dfc112e047bd68b082b.tar.gz -> gentoo-net-sdk-1.0.0.tar.gz
 _eclasses_=dotbuildtask	6c66da173381a7e01945846a3f4660dd	dotnet	ba3141f6181c0b352be28c884447e9a9	eutils	fcb2aa98e1948b835b5ae66ca52868c5	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	msbuild	9a7a8e4c642748bedc5b06124f0ed58c	msbuild-framework	881ba813b68ac74f6351334ad7eea95b	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=359dd3a24c24635142ad6ad08fdef167
+_md5_=e4e59368e0bb5fe68485a6d2021b59a1

@@ -32,6 +32,7 @@ dev-dotnet/slntools 1.1.3_p201508170-r2: library for merging .sln files, and cli
 dev-dotnet/ssh-config-parser 1.0-r1: C#/.NET parser for OpenSSH config files
 dev-dotnet/system-collections-immutable 2.0.0_pre-r1: part of CoreFX
 dev-dotnet/system-reflection-metadata 2.0.0_pre: part of CoreFX
+dev-dotnet/system-runtime-compilerservices-unsafe 4.5: low-level functionality for manipulating pointers
 dev-gaclibs/Autopsy-Formats-PeCoff 1.0: Safe and static parsing for PE/COFF/LIB formats
 dev-gaclibs/github-api 0.0-r20150331: C# API for github, based on RestSharp
 dev-lang/mono 5.2.0.224 5.4.1.6 5.18.0.240: Mono runtime and class libraries, a C# compiler/interpreter
