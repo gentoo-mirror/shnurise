@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-5.2.0.196 dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dotnet/corefx/archive/247068fbd97c534dc13b3b9d037f67b03dbe57a5.tar.gz -> corefx-dotnet-2.0.0_pre.tar.gz
-_eclasses_=dotnet	ba3141f6181c0b352be28c884447e9a9	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	gac	0be4d7cb668d0ac74e14fe9b1562547d	l10n	8cdd85e169b835d518bc2fd59f780d8e	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	mono-pkg-config	45bd2ab7612ab83743febe37efcea4e0	wrapper	4251d4c84c25f59094fd557e0063a974	xbuild	c67583c573f4ca4d63e61dcd2b353b51
+_eclasses_=dotnet	4b026743df3a6f5c2bfad3e95e775fb3	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	gac	0be4d7cb668d0ac74e14fe9b1562547d	l10n	8cdd85e169b835d518bc2fd59f780d8e	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	mono-pkg-config	323b31014527a44410ccf6958a8afb08	wrapper	4251d4c84c25f59094fd557e0063a974	xbuild	c67583c573f4ca4d63e61dcd2b353b51
 _md5_=f3612d35ce355c1ebb0edd15916c256d
