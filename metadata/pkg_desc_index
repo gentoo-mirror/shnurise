@@ -8,7 +8,7 @@ dev-dotnet/buildtools 1.0.27: Build tools that are necessary for building the .N
 dev-dotnet/dotnetzip-semverd 1.13.7: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/gentoo-net-sdk 1.0.0-r1: Alternative build sequence with PkgConfig instead of NuGet
 dev-dotnet/icsharpcode-texteditor 3.2.2_p2018020702-r2: ICSharpCode.TextEditor library
-dev-dotnet/libgdiplus 4.2-r4 5.6.1-r2: Library for using System.Drawing with mono
+dev-dotnet/libgdiplus 6.0.5 6.0.5_p64: Library for using System.Drawing with mono
 dev-dotnet/microsoft-net-sdk 2.1.300: 'Microsoft.NET.Sdk' for msbuild
 dev-dotnet/msbuild-defaulttasks 15.9.20.62856: default tasks for Microsoft Build Engine (MSBuild)
 dev-dotnet/msbuild-roslyn-csc 15.9-r1: C# compiler with rich code analysis APIs
