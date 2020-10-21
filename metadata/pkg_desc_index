@@ -23,8 +23,8 @@ dev-dotnet/system-reflection-metadata 2.0.0_pre: part of CoreFX
 dev-dotnet/system-runtime-compilerservices-unsafe 4.5.2: low-level functionality for manipulating pointers
 dev-dotnet/system-threading-tasks-extensions 4.5.2: Provides additional types that simplify the work of writing concurrent and asynchronous code
 dev-dotnet/system-valuetuple 4.5.0: Provides the System.ValueTuple structs, which implement the underlying types for tuples in C#
-dev-lang/mono 5.2.0.224 5.4.1.6 5.18.0.240: Mono runtime and class libraries, a C# compiler/interpreter
-dev-lang/mono-patched 5.9.0.398 5.9.0.569: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono 6.12.0.102: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono-patched 5.9.0.398 5.9.0.569 6.12.0.102: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/oscript 1.0.30: scripting interpreter for 1C-like language (mono based)
 dev-util/acmenet-tools 0.0.65_p2017110310: Console utility for requesting certificates
 dev-util/msbuild 15.9.20.62856-r3 15.9.20.62856-r4 15.9.20.62856-r5: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
