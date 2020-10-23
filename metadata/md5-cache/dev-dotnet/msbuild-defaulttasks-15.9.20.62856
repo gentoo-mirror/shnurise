@@ -10,5 +10,5 @@ RDEPEND=>=dev-lang/mono-5.2.0.196 dev-dotnet/msbuild-tasks-api:15.9[pkg-config] 
 RESTRICT=mirror
 SLOT=15.9
 SRC_URI=https://github.com/Microsoft/msbuild/archive/88f5fadfbef809b7ed2689f72319b7d91792460e.tar.gz -> msbuild-Microsoft-15.9.20.62856.tar.gz mskey? ( https://github.com/Microsoft/msbuild/raw/master/src/MSFT.snk ) https://github.com/mono/mono/raw/master/mcs/class/mono.snk
-_eclasses_=dotnet	3ce9a0b118f89ee415570c32e84f14d5	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	gac	0be4d7cb668d0ac74e14fe9b1562547d	l10n	8cdd85e169b835d518bc2fd59f780d8e	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	msbuild-framework	0bd8da32b91ccd8a3349ac88d33f7c2c	wrapper	4251d4c84c25f59094fd557e0063a974	xbuild	c67583c573f4ca4d63e61dcd2b353b51
+_eclasses_=dotnet	c1d080079d73871b21548359b84d25d5	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	gac	0be4d7cb668d0ac74e14fe9b1562547d	l10n	8cdd85e169b835d518bc2fd59f780d8e	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	msbuild-framework	0bd8da32b91ccd8a3349ac88d33f7c2c	wrapper	4251d4c84c25f59094fd557e0063a974	xbuild	c67583c573f4ca4d63e61dcd2b353b51
 _md5_=52b04ab25fa004d3de83c7a33dd990c3
