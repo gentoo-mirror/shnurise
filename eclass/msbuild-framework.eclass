@@ -25,6 +25,20 @@ msbuild_expand() {
 	echo "${res}"
 }
 
+# @FUNCTION: target_to_slot
+# @DESCRIPTION: converts string(s) like "msbuild15-9" into "15.9"
+target_to_slot() {
+	local res=""
+	for word in $@; do
+		local DEF=${MSBUILD_TARGET/msbuild/}
+		if [[ ! -z "$res" ]]; then
+			res="${res} "
+		fi
+		res="${res}${DEF/-/.}"
+	done
+	echo "${res}"
+}
+
 # @FUNCTION: BuildToolsVersion
 # @DESCRIPTION: version of tools
 # for use only from slotted ebuilds
@@ -44,21 +58,14 @@ BuildToolsVersion () {
 	#
 	# A range can be specified as 'm' for m-th version component, 'm-' for all components starting with m-th or 'm-n' for components starting at m-th and ending at n-th (inclusive).
 	# If the range spans outside the version string, it is truncated silently.
-	local DEF=${MSBUILD_TARGET/msbuild/}
-	echo ${DEF/-/.}
-}
-
-# @FUNCTION: MSBuildExtensionsPath
-# @DESCRIPTION: root directory for different version of tools
-MSBuildExtensionsPath () {
-	echo "/usr/share/msbuild"
+	echo $(target_to_slot "${MSBUILD_TARGET}")
 }
 
 # @FUNCTION: MSBuildToolsPath
 # @DESCRIPTION: location of .target files
 # https://docs.microsoft.com/en-US/visualstudio/msbuild/msbuild-dot-targets-files?view=vs-2019
 MSBuildToolsPath () {
-	echo "$(MSBuildExtensionsPath)/$(BuildToolsVersion)"
+	echo "/usr/share/msbuild/$(BuildToolsVersion)"
 }
 
 # @FUNCTION: MSBuildBinPath
@@ -68,18 +75,24 @@ MSBuildBinPath () {
 	echo "$(MSBuildToolsPath)"
 }
 
+# @FUNCTION: MSBuildExtensionsPath
+# @DESCRIPTION: root directory for different version of tools
+MSBuildExtensionsPath () {
+	echo "$(MSBuildToolsPath)"
+}
+
 # @FUNCTION: MSBuildSdksPath
 # @DESCRIPTION: location of Sdks directory
-# .../bin/Sdks relationship is hardcoded in line 
+# ./Sdks relative position to MSBuildToolsPath is hardcoded in line 
 #     defaultSdkPath = Path.Combine(CurrentMSBuildToolsDirectory, "Sdks");
 # of file
-# https://github.com/microsoft/msbuild/blob/master/src/Shared/BuildEnvironmentHelper.cs#L593
+# https://github.com/dotnet/msbuild/blob/master/src/Shared/BuildEnvironmentHelper.cs#L590
 # it can be overriden with environment variable
-# MSBuildSDKsPath=/usr/share/msbuild/15.9/Sdks msbuild ACME.net.sln
+# MSBuildSDKsPath=/usr/share/msbuild/15.9/Sdks msbuild some_project.sln
 # but not from MSBuild.exe.config
 # that is why "$(MSBuildBinPath)/Sdks" instead of "$(MSBuildToolsPath)/Sdks"
 MSBuildSdksPath () {
-	echo "$(MSBuildBinPath)/Sdks"
+	echo "$(MSBuildBinPath)"/Sdks
 }
 
 # @FUNCTION: RoslynTargetsPath
@@ -89,5 +102,5 @@ MSBuildSdksPath () {
 # mono installs it's own copy at path
 # /usr/lib/mono/msbuild/Current/bin/Roslyn
 RoslynTargetsPath () {
-	echo "$(MSBuildBinPath)/Roslyn"
+	echo "$(MSBuildBinPath)"/Roslyn
 }
