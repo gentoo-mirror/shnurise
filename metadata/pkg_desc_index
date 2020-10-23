@@ -32,4 +32,4 @@ dev-util/msbuild-meta 15.9-r1:
 games-strategy/freeorion 0.4.6_rc2: A free turn-based space empire and galactic conquest game
 net-libs/xulrunner 39.0.3-r20150824: Mozilla runtime package that can be used to bootstrap XUL+XPCOM applications
 sys-kernel/sabayon-sources 4.11.12: Official Sabayon Linux Standard kernel sources
-www-servers/xsp 4.7.1: XSP is a small web server that can host ASP.NET pages
+www-servers/xsp 4.7.1-r1: XSP is a small web server that can host ASP.NET pages
