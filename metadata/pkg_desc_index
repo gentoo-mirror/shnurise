@@ -27,7 +27,7 @@ dev-lang/mono 6.12.0.102: Mono runtime and class libraries, a C# compiler/interp
 dev-lang/mono-patched 5.9.0.398 5.9.0.569 6.12.0.102: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/oscript 1.0.30: scripting interpreter for 1C-like language (mono based)
 dev-util/acmenet-tools 0.0.65_p2017110310: Console utility for requesting certificates
-dev-util/msbuild 15.9.20.62856-r3 15.9.20.62856-r4 15.9.20.62856-r5: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
+dev-util/msbuild 15.9.20.62856-r5: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9-r1: 
 games-strategy/freeorion 0.4.6_rc2: A free turn-based space empire and galactic conquest game
 net-libs/xulrunner 39.0.3-r20150824: Mozilla runtime package that can be used to bootstrap XUL+XPCOM applications
