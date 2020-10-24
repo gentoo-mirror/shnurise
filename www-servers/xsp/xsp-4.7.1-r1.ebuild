@@ -2,8 +2,8 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="7"
-KEYWORDS="amd64 ~ppc ~x86"
-RESTRICT="mirror"
+KEYWORDS="amd64"
+RESTRICT="mirror test"
 
 SLOT="0"
 
@@ -39,7 +39,7 @@ DEPEND="${COMMON_DEPEND}"
 SANDBOX_WRITE="${SANDBOX_WRITE}:/etc/mono/registry/:/etc/mono/registry/last-btime"
 
 src_prepare() {
-#	eapply "${FILESDIR}/props.patch"
+	eapply "${FILESDIR}/disable-tests.patch"
 	eapply "${FILESDIR}/acme.patch"
 	eapply "${FILESDIR}/aclocal-fix.patch"
 
@@ -66,7 +66,14 @@ src_configure() {
 }
 
 src_compile() {
-	emsbuild xsp.sln
+	local PROPERTIES=(
+		'/p:PrepareProjectReferencesDependsOn="AssignProjectConfiguration;_SplitProjectReferencesByFileExistence"'
+		'/p:GetCopyToOutputDirectoryItemsDependsOn="AssignTargetPaths;_SplitProjectReferencesByFileExistence"'
+	)
+	# see https://unix.stackexchange.com/questions/29509/transform-an-array-into-arguments-of-a-command
+	# ${PROPERTIES[@]}
+
+	emsbuild ${PROPERTIES[@]} xsp.sln
 }
 
 pkg_preinst() {
