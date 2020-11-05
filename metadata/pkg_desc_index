@@ -18,6 +18,7 @@ dev-dotnet/msbuildtasks 1.5.0.260_pre-r1: The MSBuild Community Tasks Project is
 dev-dotnet/ndepend-path 0.0_p20151123-r5: C# framework for paths operations: Absolute, Drive Letter, UNC, Relative, prefix
 dev-dotnet/netinfra 0.0.0_p4-r1: classes to store configuration of computers
 dev-dotnet/newtonsoft-json 6.0.8-r1: Json.NET is a popular high-performance JSON framework for .NET
+dev-dotnet/ssh-net 2020.0.0_pre: SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism.
 dev-dotnet/system-collections-immutable 2.0.0_pre-r1: part of CoreFX
 dev-dotnet/system-memory 4.5.3: low-level functionality for manipulating pointers
 dev-dotnet/system-reflection-metadata 2.0.0_pre: part of CoreFX
