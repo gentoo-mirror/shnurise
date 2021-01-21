@@ -4,6 +4,7 @@ app-eselect/eselect-msbuild 15.9: msbuild eselect module
 app-office/projectlibre-bin 1.6.2: A free and open source desktop alternative to Microsoft Project
 dev-dotnet/apachemodmono-webadmnistration 0.0.0: API for managing Apache and mod-mono-server4
 dev-dotnet/buildtools 1.0.27: Build tools that are necessary for building the .NET Core projects
+dev-dotnet/command-line-api 0.0.0.0_p1499-r2: Library for building command line applications with extensible middleware pipeline
 dev-dotnet/dotnetzip-semverd 1.13.7: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/gentoo-net-sdk 1.0.0-r3: Alternative build sequence with PkgConfig instead of NuGet
 dev-dotnet/icsharpcode-texteditor 3.2.2_p2018020702-r2: ICSharpCode.TextEditor library
@@ -31,6 +32,7 @@ dev-lang/oscript 1.0.30: scripting interpreter for 1C-like language (mono based)
 dev-util/acmenet-tools 0.0.65_p2017110310: Console utility for requesting certificates
 dev-util/msbuild 15.9.20.62856-r5: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9-r1: 
+dev-util/sftp-file-transfer 0.0.0.0_p2-r1: C# command line utility for uploading files to sftp
 games-strategy/freeorion 0.4.6_rc2: A free turn-based space empire and galactic conquest game
 net-libs/xulrunner 39.0.3-r20150824: Mozilla runtime package that can be used to bootstrap XUL+XPCOM applications
 sys-kernel/sabayon-sources 4.11.12: Official Sabayon Linux Standard kernel sources
