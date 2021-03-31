@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst preinst prepare setup test unpack
+DEPEND=!dev-games/gigi media-libs/libsdl2 >=dev-libs/boost-1.47[python] media-libs/freealut media-libs/libogg media-libs/libsdl[X,opengl,video] media-libs/libvorbis media-libs/openal sci-physics/bullet sys-libs/zlib virtual/opengl || ( >=dev-lang/python-2.7.5-r2:2.7 ) virtual/pkgconfig sys-devel/make >=dev-util/cmake-3.9.6
+DESCRIPTION=A free turn-based space empire and galactic conquest game
+EAPI=5
+HOMEPAGE=http://www.freeorion.org
+INHERIT=cmake-utils python-any-r1 games
+IUSE=cg
+KEYWORDS=~amd64
+LICENSE=GPL-2 LGPL-2.1 CC-BY-SA-3.0
+RDEPEND=!dev-games/gigi media-libs/libsdl2 >=dev-libs/boost-1.47[python] media-libs/freealut media-libs/libogg media-libs/libsdl[X,opengl,video] media-libs/libvorbis media-libs/openal sci-physics/bullet sys-libs/zlib virtual/opengl games-misc/games-envd
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/freeorion/freeorion/releases/download/v0.4.6-RC2/FreeOrion_v0.4.6-RC2_2016-09-16.49f9123_Source.tar.gz -> freeorion-0.4.6_rc2.tar.gz
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	desktop	c0d27bf73aa08ca05b663dbd31fbef28	edos2unix	33e347e171066657f91f8b0c72ec8773	estack	055c42df72f76a4f45ec92b35e83cd56	epatch	f62592ba170464d52e9a05f584161347	l10n	8cdd85e169b835d518bc2fd59f780d8e	ltprune	4f3f2db5ce3ccbeeacdf3f94954043aa	preserve-libs	ef207dc62baddfddfd39a164d9797648	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	flag-o-matic	09a8beb8e6a8e02dc1e1bd83ac353741	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	cmake-utils	12008d68ebfd61f49a377c49f83558a8	python-utils-r1	543b53e4d003ebd889082f4673e52af5	python-any-r1	690a993463cd2ebcde40ccdf1bd9ba98	base	a3f380d8a13f148f16d76fe39e90f451	user-info	a2abd4e2f4c3b9b06d64bf1329359a02	user	26d8ce6329c43cbac965617f1c0627e2	games	0951ae20fe104aff185fd39b62648612
+_md5_=41eb33a674cba4bb52034fd9c1ec2253

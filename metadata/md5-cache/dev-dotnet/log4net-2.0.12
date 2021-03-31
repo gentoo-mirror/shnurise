@@ -4,10 +4,11 @@ DEPEND=>=dev-lang/mono-4.5
 DESCRIPTION=tool to help the programmer output log statements to a variety of output targets
 EAPI=7
 HOMEPAGE=http://logging.apache.org/log4net/
+INHERIT=multilib mono vcs-snapshot
 KEYWORDS=amd64
 LICENSE=Apache-2.0
 RDEPEND=>=dev-lang/mono-4.5
 SLOT=0
 SRC_URI=https://api.github.com/repos/apache/logging-log4net/tarball/dbad144815221ffe4ed85efa73134583253dc75b -> log4net-2.0.12.tar.gz https://dev.gentoo.org/~pacho/dotnet/log4net.snk
-_eclasses_=mono	6b9c26a7a64b4530f483c30a494ac0a1	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	mono	6b9c26a7a64b4530f483c30a494ac0a1	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=5d2d7da8300cfd0e9fe8283b1e5ae259
