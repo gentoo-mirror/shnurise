@@ -28,7 +28,7 @@ dev-dotnet/system-valuetuple 4.5.0: Provides the System.ValueTuple structs, whic
 dev-lang/mono 6.12.0.102: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/mono-patched 5.9.0.398 5.9.0.569 6.12.0.102: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/oscript 1.0.30: scripting interpreter for 1C-like language (mono based)
-dev-util/acmenet-tools 0.0.65_p2017110310: Console utility for requesting certificates
+dev-util/acmenet-tools 0.0.65_p2017110310-r1: Console utility for requesting certificates
 dev-util/msbuild 15.9.20.62856-r5: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9-r1: 
 dev-util/sftp-file-transfer 0.0.0.0_p2-r1: C# command line utility for uploading files to sftp
