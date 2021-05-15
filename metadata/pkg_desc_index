@@ -2,7 +2,7 @@ app-editors/mypad 1.0.5: mypad text editor
 app-eselect/eselect-msbuild 15.9: msbuild eselect module
 app-office/projectlibre-bin 1.6.2: A free and open source desktop alternative to Microsoft Project
 dev-dotnet/apachemodmono-webadmnistration 0.0.0: API for managing Apache and mod-mono-server4
-dev-dotnet/buildtools 1.0.27: Build tools that are necessary for building the .NET Core projects
+dev-dotnet/buildtools 1.0.27-r1: Build tools that are necessary for building the .NET Core projects
 dev-dotnet/command-line-api 0.0.0.0_p1499-r2: Library for building command line applications with extensible middleware pipeline
 dev-dotnet/dotnetzip-semverd 1.13.7: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/gentoo-net-sdk 1.0.0-r3: Alternative build sequence with PkgConfig instead of NuGet
