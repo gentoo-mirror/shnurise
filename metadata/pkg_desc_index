@@ -34,5 +34,5 @@ dev-util/msbuild-meta 15.9-r1:
 dev-util/sftp-file-transfer 0.0.0.0_p2-r1: C# command line utility for uploading files to sftp
 net-libs/xulrunner 39.0.3-r20150824: Mozilla runtime package that can be used to bootstrap XUL+XPCOM applications
 sys-kernel/sabayon-sources 4.11.12: Official Sabayon Linux Standard kernel sources
-www-apache/mod_mono 3.13_p20200408-r0: Apache module for Mono
+www-apache/mod_mono 3.13_p20200408-r1: Apache module for Mono
 www-servers/xsp 4.7.1-r1: XSP is a small web server that can host ASP.NET pages
