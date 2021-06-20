@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-4.0.2.5 >=dev-dotnet/dotnetzip-semverd-1.9.3-r4 dev-dotn
 RESTRICT=mirror
 SLOT=1
 SRC_URI=https://github.com/loresoft/msbuildtasks/archive/abaab03d71fc07b020a860f6d407f6814cb0f6d5.tar.gz -> msbuildtasks-1.5.0.260.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	8cdd85e169b835d518bc2fd59f780d8e	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	2d5b3f4b315094768576b6799e4f926e	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	c1d080079d73871b21548359b84d25d5	xbuild	c67583c573f4ca4d63e61dcd2b353b51	gac	0be4d7cb668d0ac74e14fe9b1562547d
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	6da6797255ab7fb848a02afa0cbc406f	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	f93c6ebbcd4a4e3e3f2328a13511b73a	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	c1d080079d73871b21548359b84d25d5	xbuild	c67583c573f4ca4d63e61dcd2b353b51	gac	0be4d7cb668d0ac74e14fe9b1562547d
 _md5_=beaea87b06800ecc25625a3a010bbb6d
