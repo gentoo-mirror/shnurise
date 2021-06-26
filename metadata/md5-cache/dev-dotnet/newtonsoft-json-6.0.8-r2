@@ -12,5 +12,5 @@ RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/JamesNK/Newtonsoft.Json/archive/1497343173a181d678b4c9bbf60250a12f783f1c.zip -> newtonsoft-json-6.0.8.zip gac? ( https://github.com/mono/mono/raw/main/mcs/class/mono.snk )
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	l10n	3c7381c56a184f0dd5ba3fb824808f30	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	9a53f21c753d823ba20a22f857c25cb4	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	c1d080079d73871b21548359b84d25d5	xbuild	c67583c573f4ca4d63e61dcd2b353b51	gac	0be4d7cb668d0ac74e14fe9b1562547d	mono-pkg-config	323b31014527a44410ccf6958a8afb08
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	c1d080079d73871b21548359b84d25d5	xbuild	c67583c573f4ca4d63e61dcd2b353b51	gac	0be4d7cb668d0ac74e14fe9b1562547d	mono-pkg-config	323b31014527a44410ccf6958a8afb08
 _md5_=d51a15a4a49544b071f8e5ba9007d6ea
