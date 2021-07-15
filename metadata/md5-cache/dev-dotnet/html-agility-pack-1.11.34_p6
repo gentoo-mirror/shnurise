@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare setup unpack
+DEPEND=>=dev-lang/mono-5.2.0.196 virtual/pkgconfig dev-dotnet/msbuild-tasks-api dev-util/msbuild
+DESCRIPTION=Html Agility Pack is a C# parser for HTML, supports plain XPATH and XSLT
+EAPI=7
+HOMEPAGE=https://html-agility-pack.net/
+INHERIT=mono-pkg-config msbuild
+IUSE=debug developer pkg-config pkg-config
+KEYWORDS=~amd64 ~arm64
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-5.2.0.196
+RESTRICT=mirror
+SLOT=6
+SRC_URI=https://github.com/zzzprojects/html-agility-pack/archive/bd8bec435e2436a6be92f47e8c3c727b602ba52e.tar.gz -> dev-dotnet-html-agility-pack-zzzprojects-1.11.34_p6.tar.gz
+_eclasses_=mono-pkg-config	323b31014527a44410ccf6958a8afb08	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	c1d080079d73871b21548359b84d25d5	msbuild-framework	ab99e17418a9383877bf6e628a2847f0	msbuild	9a7a8e4c642748bedc5b06124f0ed58c
+_md5_=984a79bccafd1300352e8107dd560a90
