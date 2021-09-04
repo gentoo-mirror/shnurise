@@ -1,5 +1,6 @@
 app-editors/mypad 1.0.5: mypad text editor
 app-eselect/eselect-msbuild 15.9: msbuild eselect module
+app-eselect/eselect-roslyn 3.9.0: msbuild eselect module
 app-office/projectlibre-bin 1.6.2: A free and open source desktop alternative to Microsoft Project
 dev-dotnet/apachemodmono-webadmnistration 0.0.0: API for managing Apache and mod-mono-server4
 dev-dotnet/buildtools 1.0.27-r1: Build tools that are necessary for building the .NET Core projects
@@ -29,6 +30,7 @@ dev-dotnet/system-valuetuple 4.5.0: Provides the System.ValueTuple structs, whic
 dev-lang/mono 6.12.0.102: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/mono-patched 5.9.0.398 5.9.0.569 6.12.0.102: Mono runtime and class libraries, a C# compiler/interpreter
 dev-lang/oscript 1.0.30: scripting interpreter for 1C-like language (mono based)
+dev-lang/roslyn-msbin 3.9.0: Roslyn binary files compiled by Microsoft and repackaged by mono team
 dev-util/acmenet-tools 0.0.65_p2017110310-r1: Console utility for requesting certificates
 dev-util/msbuild 15.9.20.62856-r5: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9-r1: 
