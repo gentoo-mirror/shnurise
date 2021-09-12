@@ -1,15 +1,15 @@
-DEFINED_PHASES=compile install prepare setup
+DEFINED_PHASES=compile install prepare setup unpack
 DEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 msbuild_targets_msbuild15-9? ( dev-dotnet/msbuild-tasks-api:15.9 dev-dotnet/msbuild-defaulttasks:15.9 ) dev-dotnet/msbuild-tasks-api dev-lang/mono
 DESCRIPTION=C# compiler with rich code analysis APIs
 EAPI=7
 HOMEPAGE=https://github.com/dotnet/roslyn
-INHERIT=msbuild-framework xbuild gac
+INHERIT=msbuild-framework xbuild gac vcs-snapshot
 IUSE=net45 msbuild_targets_msbuild15-9 +msbuild +gac +mskey +debug developer net45 gac pkg-config
 KEYWORDS=amd64 arm64
-LICENSE=Apache-2.0
+LICENSE=MIT
 RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 msbuild_targets_msbuild15-9? ( dev-dotnet/msbuild-tasks-api:15.9 dev-dotnet/msbuild-defaulttasks:15.9 ) dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/dotnet/roslyn/archive/ec1cde8b77c7bca654888681037f55aa0e62dd19.tar.gz -> roslyn-15.9.tar.gz mskey? ( https://github.com/Microsoft/msbuild/raw/master/src/MSFT.snk ) https://github.com/mono/mono/raw/master/mcs/class/mono.snk
-_eclasses_=msbuild-framework	ab99e17418a9383877bf6e628a2847f0	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	c1d080079d73871b21548359b84d25d5	xbuild	c67583c573f4ca4d63e61dcd2b353b51	gac	0be4d7cb668d0ac74e14fe9b1562547d
-_md5_=115530d15d73dfa5c29fff56c478701e
+_eclasses_=msbuild-framework	ab99e17418a9383877bf6e628a2847f0	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	c1d080079d73871b21548359b84d25d5	xbuild	c67583c573f4ca4d63e61dcd2b353b51	gac	0be4d7cb668d0ac74e14fe9b1562547d	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=dd7c058a032345a75d33c08434e71177
