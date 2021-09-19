@@ -21,7 +21,6 @@ dev-dotnet/netinfra 0.0.0_p4-r1: classes to store configuration of computers
 dev-dotnet/newtonsoft-json 6.0.8-r2: Json.NET is a popular high-performance JSON framework for .NET
 dev-dotnet/ssh-config-parser 1.0-r2: C#/.NET parser for OpenSSH config files
 dev-dotnet/ssh-net 2020.0.0_pre: SSH.NET is a Secure Shell (SSH) library for .NET, optimized for parallelism.
-dev-dotnet/system-collections-immutable 2.0.0_pre-r1: part of CoreFX
 dev-dotnet/system-memory 4.5.3: low-level functionality for manipulating pointers
 dev-dotnet/system-reflection-metadata 2.0.0_pre: part of CoreFX
 dev-dotnet/system-runtime-compilerservices-unsafe 4.5.2: low-level functionality for manipulating pointers
@@ -34,6 +33,7 @@ dev-lang/roslyn-msbin 3.9.0: Roslyn binary files compiled by Microsoft and repac
 dev-util/acmenet-tools 0.0.65_p2017110310-r1: Console utility for requesting certificates
 dev-util/msbuild 15.9.20.62856-r5: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9-r1: 
+dev-util/resgen 6.12.0.154: Resource generator from mono
 dev-util/sftp-file-transfer 0.0.0.0_p2-r1: C# command line utility for uploading files to sftp
 net-libs/xulrunner 39.0.3-r20150824: Mozilla runtime package that can be used to bootstrap XUL+XPCOM applications
 sys-kernel/sabayon-sources 4.11.12: Official Sabayon Linux Standard kernel sources

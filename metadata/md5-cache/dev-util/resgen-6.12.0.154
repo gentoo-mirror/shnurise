@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare setup
+DESCRIPTION=Resource generator from mono
+EAPI=7
+HOMEPAGE=https://github.com/mono/mono
+INHERIT=dotnet
+IUSE=+net46 +symlink developer debug
+KEYWORDS=amd64 arm64
+LICENSE=MIT
+RESTRICT=mirror
+SLOT=6.12
+SRC_URI=https://github.com/mono/mono/archive/0c979e6d769bda97bfba41c29324f727e72e27d8.tar.gz -> mono-6.12.0.154.tar.gz
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	mono-env	059a05efbba66d5bdcc2dd74d91f82f8	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	c1d080079d73871b21548359b84d25d5
+_md5_=c653aad7836049d7b3a8e0fcd6c149d6
