@@ -33,7 +33,7 @@ dev-lang/mono-patched 5.9.0.398 5.9.0.569 6.12.0.102: Mono runtime and class lib
 dev-lang/oscript 1.0.30: scripting interpreter for 1C-like language (mono based)
 dev-lang/roslyn-msbin 3.9.0: Roslyn binary files compiled by Microsoft and repackaged by mono team
 dev-util/acmenet-tools 0.0.65_p2017110310-r1: Console utility for requesting certificates
-dev-util/msbuild 15.9.20.62856-r5: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
+dev-util/msbuild 15.9.20.62856-r6: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9-r1: 
 dev-util/resgen 6.12.0.154: Resource generator from mono
 dev-util/sftp-file-transfer 0.0.0.0_p2-r1: C# command line utility for uploading files to sftp
