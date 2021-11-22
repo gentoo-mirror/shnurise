@@ -13,7 +13,7 @@ dev-dotnet/libgdiplus 6.0.5_p75: Library for using System.Drawing with mono
 dev-dotnet/log4net 2.0.12: tool to help the programmer output log statements to a variety of output targets
 dev-dotnet/microsoft-net-sdk 2.1.300-r1: 'Microsoft.NET.Sdk' for msbuild
 dev-dotnet/msbuild-defaulttasks 15.9.20.62856-r1: default tasks for Microsoft Build Engine (MSBuild)
-dev-dotnet/msbuild-roslyn-csc 15.9-r2: C# compiler with rich code analysis APIs
+dev-dotnet/msbuild-roslyn-csc 4.0.0 15.9-r2: C# compiler with rich code analysis APIs
 dev-dotnet/msbuild-tasks-api 15.9.20.62856-r6: msbuild libraries for writing Task-derived classes
 dev-dotnet/msbuildtasks 1.5.0.260_pre-r1: The MSBuild Community Tasks Project is an open source project for MSBuild tasks.
 dev-dotnet/ndepend-path 0.0_p20151123-r5: C# framework for paths operations: Absolute, Drive Letter, UNC, Relative, prefix
@@ -35,6 +35,7 @@ dev-lang/roslyn-msbin 3.9.0: Roslyn binary files compiled by Microsoft and repac
 dev-util/acmenet-tools 0.0.65_p2017110310-r1: Console utility for requesting certificates
 dev-util/msbuild 15.9.20.62856-r6: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9-r1: 
+dev-util/res2cs 9999: An utility to generate .cs from .resx
 dev-util/resgen 6.12.0.154: Resource generator from mono
 dev-util/sftp-file-transfer 0.0.0.0_p2-r1: C# command line utility for uploading files to sftp
 net-libs/xulrunner 39.0.3-r20150824: Mozilla runtime package that can be used to bootstrap XUL+XPCOM applications
