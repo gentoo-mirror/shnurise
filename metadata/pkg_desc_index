@@ -13,7 +13,7 @@ dev-dotnet/libgdiplus 6.0.5_p75: Library for using System.Drawing with mono
 dev-dotnet/log4net 2.0.12: tool to help the programmer output log statements to a variety of output targets
 dev-dotnet/microsoft-net-sdk 2.1.300-r1: 'Microsoft.NET.Sdk' for msbuild
 dev-dotnet/msbuild-defaulttasks 15.9.20.62856-r1: default tasks for Microsoft Build Engine (MSBuild)
-dev-dotnet/msbuild-roslyn-csc 4.0.0 15.9-r2: C# compiler with rich code analysis APIs
+dev-dotnet/msbuild-roslyn-csc 4.0.0: C# compiler with rich code analysis APIs
 dev-dotnet/msbuild-tasks-api 15.9.20.62856-r6: msbuild libraries for writing Task-derived classes
 dev-dotnet/msbuildtasks 1.5.0.260_pre-r1: The MSBuild Community Tasks Project is an open source project for MSBuild tasks.
 dev-dotnet/ndepend-path 0.0_p20151123-r5: C# framework for paths operations: Absolute, Drive Letter, UNC, Relative, prefix
