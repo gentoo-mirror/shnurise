@@ -1,4 +1,4 @@
-BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
 DEFINED_PHASES=compile configure install postinst prepare setup unpack
 DEPEND==www-servers/apache-2* >=dev-lang/mono-3.13_p20200408 virtual/pkgconfig
 DESCRIPTION=Apache module for Mono
@@ -12,5 +12,5 @@ RDEPEND=>=www-servers/xsp-4.4 =www-servers/apache-2* >=dev-lang/mono-3.13_p20200
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mono/mod_mono/archive/96a6b55d69da2807ed32a362e0d9b6f19e2a8a30.tar.gz -> mod_mono-3.13_p20200408.tar.gz
-_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c9df06c186913b43eb211100ef5fe2cf	depend.apache	27a82685eec34e3bab80641f46b5bb58	apache-module	4d0ccd357b5f2d92599030b72f6efb62	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	mono	01ad55689457d5eff289ff37365cf4db	go-mono	c569f17a9da4a595bf94d058b3575a22	mono-env	60554e038c8ac2b080e23e280ad8382b
+_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6cc26735fa9dd59e8c62880beda05b6e	depend.apache	27a82685eec34e3bab80641f46b5bb58	apache-module	4d0ccd357b5f2d92599030b72f6efb62	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	mono	01ad55689457d5eff289ff37365cf4db	go-mono	c569f17a9da4a595bf94d058b3575a22	mono-env	60554e038c8ac2b080e23e280ad8382b
 _md5_=9ed9a94bd295102f835a2795645cd774
