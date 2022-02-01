@@ -10,5 +10,5 @@ LICENSE=Apache-2.0
 RDEPEND=>=dev-lang/mono-4.5
 SLOT=0
 SRC_URI=https://api.github.com/repos/apache/logging-log4net/tarball/dbad144815221ffe4ed85efa73134583253dc75b -> log4net-2.0.12.tar.gz https://dev.gentoo.org/~pacho/dotnet/log4net.snk
-_eclasses_=multilib	de4beb52bfa93c4c5d96792a6b5e1784	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	mono	01ad55689457d5eff289ff37365cf4db	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=multilib	de4beb52bfa93c4c5d96792a6b5e1784	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	mono	01ad55689457d5eff289ff37365cf4db	vcs-snapshot	19dc666868420457132a7514d4621476
 _md5_=50ab156c921cfb58c2446a595863039d

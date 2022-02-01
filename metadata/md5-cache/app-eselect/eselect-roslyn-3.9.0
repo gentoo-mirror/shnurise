@@ -9,5 +9,5 @@ RDEPEND=app-admin/eselect
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://codeload.github.com/ArsenShnurkov/eselect-msbuild/tar.gz/503f006c4b29b0a3013d92f03a44f51fb9075c23 -> eselect-roslyn-3.9.0.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=vcs-snapshot	19dc666868420457132a7514d4621476
 _md5_=1d49942fe12173768b8a7ce224c2be6f
