@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare setup
+DEPEND=>=dev-lang/mono-3.0
+DESCRIPTION=C# API for github, based on RestSharp
+EAPI=8
+HOMEPAGE=https://github.com/gitextensions/Git.hub
+INHERIT=dotnet
+IUSE=debug
+KEYWORDS=amd64 ~x86 ~ppc
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-3.0
+SLOT=0
+SRC_URI=https://github.com/gitextensions/Git.hub/archive/46304b521bb26414a9f1e998a315cd35039a4837.zip -> github-api-0.0-r20150331.zip
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b
+_md5_=f158eb297b1ba50638f460b06102facb

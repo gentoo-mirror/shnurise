@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 >=dev-dotnet/antlr3-runtime-3.5.2_beta1_p2017080216-r2 dev-dotnet/msbuild-tasks-api dev-dotnet/msbuild-tasks-api dev-util/msbuild
+DESCRIPTION=The C# port of ANTLR 3
+EAPI=8
+HOMEPAGE=https://github.com/antlr/antlrcs
+INHERIT=multilib dotbuildtask
+IUSE=+net45 debug developer doc net45
+KEYWORDS=amd64 ~x86
+LICENSE=BSD
+RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ArsenShnurkov/shnurise-tarballs/raw/dev-util/antlrcs/antlrcs-3.5.2_beta1_p2017080216.tar.gz -> dev-util-antlrcs-3.5.2_beta1_p2017080216.tar.gz
+_eclasses_=multilib	4a33c9008e5ee30cb8840a3fdc24df2b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild	64ea878d4421c09f83331ee684673b07	dotbuildtask	6e8e4e03830ae5ffd10a92c8873440e8
+_md5_=e6312feaf809025cbf8d44fe8584ad8f

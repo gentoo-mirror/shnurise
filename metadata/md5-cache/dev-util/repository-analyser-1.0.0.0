@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=>=dev-lang/mono-4.9.0 dev-dotnet/msbuildtasks dev-util/mono-packaging-tools
+DESCRIPTION=modified Earley parser in C# inspired by the Marpa Parser project
+EAPI=8
+HOMEPAGE=https://github.com/ArsenShnurkov/repository-analyser
+INHERIT=dotnet
+IUSE=+net45 net45
+KEYWORDS=amd64 ~x86
+LICENSE=GPLv3
+RDEPEND=>=dev-lang/mono-4.9.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ArsenShnurkov/repository-analyser/archive/7423a3da82f5c5c874801fc85482ec89e03f74b8.tar.gz -> repository-analyser-1.0.0.0.tar.gz
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b
+_md5_=0d1c0d845d732d8761e961555078800a

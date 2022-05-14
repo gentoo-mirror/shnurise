@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst preinst prepare prerm setup
+DEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) >=dev-dotnet/msbuildtasks-1.5.0.240-r3 dev-dotnet/msbuild-tasks-api dev-util/msbuild dev-lang/mono
+DESCRIPTION=parsing framework for C# on LALR(1)
+EAPI=8
+HOMEPAGE=https://github.com/daxnet/irony
+INHERIT=msbuild gac
+IUSE=+net45 net45 gac pkg-config
+KEYWORDS=amd64 ~x86
+LICENSE=MIT
+RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-lang/mono
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/daxnet/irony/archive/ed2aa3ed74b53b1655a2b196d34a1bc20d4e6ce1.tar.gz -> irony-daxnet-1.0.0_p2017083101.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	msbuild	64ea878d4421c09f83331ee684673b07	gac	9eaa9a533341fdeeeb6d0a0d79a027be
+_md5_=78f6c564b030a357b55535aa7a9726ff

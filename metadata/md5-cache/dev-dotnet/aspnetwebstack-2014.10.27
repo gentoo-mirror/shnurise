@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure setup
+DEPEND=dev-lang/mono dev-dotnet/xsp dev-util/intltool virtual/pkgconfig sys-devel/gettext x11-misc/shared-mime-info x11-terms/xterm
+DESCRIPTION=Mono copy of the Microsoft ASP.NET Web Stack (MVC, Razor etc)
+EAPI=8
+HOMEPAGE=https://github.com/martinjt/aspnetwebstack
+INHERIT=dotnet
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=dev-lang/mono dev-dotnet/xsp
+SLOT=0
+SRC_URI=https://github.com/ArsenShnurkov/aspnetwebstack/archive/aspnetwebstack-2014.10.27.tar.gz
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b
+_md5_=a6b7fa9f35502b58bb5bb1a5d74eb3b1

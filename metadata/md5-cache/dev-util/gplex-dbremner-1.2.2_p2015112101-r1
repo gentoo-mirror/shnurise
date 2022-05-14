@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install prepare setup
+DESCRIPTION=C# version of lex (Garden Point Lex)
+EAPI=8
+HOMEPAGE=https://github.com/dbremner/gplex
+INHERIT=xbuild
+IUSE=+net45 debug net45
+KEYWORDS=amd64 ~ppc ~x86
+LICENSE=BSD
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/ArsenShnurkov/shnurise-tarballs/archive/dev-util/gplex-dbremner/gplex-dbremner-1.2.2_p2015112101.tar.gz -> dev-util-gplex-dbremner-1.2.2_p2015112101.tar.gz
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	xbuild	78f85876b460ad06797ed8718688042a
+_md5_=8f5bb704fade65e1488f76b995fc6829

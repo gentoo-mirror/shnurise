@@ -1,0 +1,14 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile configure install prepare setup unpack
+DEPEND=>=dev-lang/mono-4.0.2.5 sys-apps/sed
+DESCRIPTION=Validator.nu HTML Parser, a HTML5 parser, port from Java Version 1.4 to C#
+EAPI=8
+HOMEPAGE=https://github.com/jamietre/HtmlParserSharp
+INHERIT=autotools dotnet
+KEYWORDS=~amd64 ~x86
+LICENSE=MPL
+RDEPEND=>=dev-lang/mono-4.0.2.5
+SLOT=0
+SRC_URI=https://github.com/jamietre/HtmlParserSharp/archive/2a450f49bb908d50461eae95dd4f74b872b5094e.zip -> htmlparsersharp-1.0.0.0-r20150614.zip
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	b46e8992a8126c894fbdc8084fc040c4	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b
+_md5_=596a34e39b03d93d3ddc7e54f97c8c79

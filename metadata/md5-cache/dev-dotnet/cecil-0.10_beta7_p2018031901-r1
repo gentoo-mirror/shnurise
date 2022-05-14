@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install prepare setup
+DEPEND=virtual/pkgconfig dev-lang/mono nupkg? ( dev-dotnet/nuget )
+DESCRIPTION=System.Reflection alternative to generate and inspect .NET executables/libraries
+EAPI=8
+HOMEPAGE=http://cecil.pe/
+INHERIT=xbuild mono-pkg-config gac nupkg
+IUSE=+net45 +pkg-config +symlink debug developer net45 pkg-config gac pkg-config net45 nupkg
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=dev-lang/mono nupkg? ( dev-dotnet/nuget )
+RESTRICT=mirror test
+SLOT=0
+SRC_URI=https://api.github.com/repos/jbevain/cecil/tarball/848c4d5b87f92e3fecd6e48c12270cd138536a83 -> dev-dotnet-cecil-0.10_beta7_p2018031901.tar.gz
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	xbuild	78f85876b460ad06797ed8718688042a	mono-pkg-config	323b31014527a44410ccf6958a8afb08	gac	9eaa9a533341fdeeeb6d0a0d79a027be	nupkg	a3405b345f7e50ce285ba9db6a063315
+_md5_=f6a4812cf021d366c35989fe704c0969

@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-dotnet/microsoft-extensions-commandlineutils
+DESCRIPTION=Simple command line assembly reference checker
+EAPI=8
+HOMEPAGE=https://github.com/mikehadlow/AsmSpy
+INHERIT=xbuild
+IUSE=+net45 debug developer net45
+KEYWORDS=amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-dotnet/microsoft-extensions-commandlineutils
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://codeload.github.com/mikehadlow/AsmSpy/tar.gz/854751d9f624d1e054d658856aca67b49f82ed0f -> dev-util-asmspy-1.2.0.tar.gz
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	xbuild	78f85876b460ad06797ed8718688042a
+_md5_=191cf0bb3439718ff2f2161f325c9c91

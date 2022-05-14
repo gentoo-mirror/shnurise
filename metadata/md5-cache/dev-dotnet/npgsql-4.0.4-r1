@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile install postinst prepare prerm setup
 DEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) test? ( dev-util/nunit2 ) dev-dotnet/msbuild-tasks-api dev-util/msbuild virtual/pkgconfig dev-lang/mono
 DESCRIPTION=allows any program developed for .NET framework to access a PostgreSQL database
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/npgsql/npgsql
 INHERIT=msbuild mono-pkg-config gac
 IUSE=net45 +gac +pkg-config debug developer test symlink net45 pkg-config gac pkg-config
@@ -11,5 +11,5 @@ RDEPEND=|| ( >=dev-lang/mono-4.2 <dev-lang/mono-9999 ) dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/npgsql/npgsql/archive/ecfb8b2c4bc5108e40c990b83c2863c61f7ef8b4.tar.gz -> dev-dotnet-npgsql-4.0.4.tar.gz gac? ( https://github.com/mono/mono/raw/master/mcs/class/mono.snk )
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	dab5d8ec471d025b79c9e6906bcf3bff	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	1ef59d4bd0c2968f1b935c22608afc75	dotnet	4dd123fdd3d16de32fe13e1a8f8fdf4d	msbuild-framework	359dad52e0ee969c6fc895863d0f6528	msbuild	64ea878d4421c09f83331ee684673b07	mono-pkg-config	323b31014527a44410ccf6958a8afb08	gac	9eaa9a533341fdeeeb6d0a0d79a027be
-_md5_=f1b16742a47413c15566368c86bfe0e8
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	msbuild	64ea878d4421c09f83331ee684673b07	mono-pkg-config	323b31014527a44410ccf6958a8afb08	gac	9eaa9a533341fdeeeb6d0a0d79a027be
+_md5_=c7ddfd9ce4b9a305e1d5271be6806608

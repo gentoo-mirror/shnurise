@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install postinst preinst prepare prerm setup
+DEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-dotnet/msbuild-tasks-api dev-util/msbuild virtual/pkgconfig dev-lang/mono
+DESCRIPTION=Library to create full-featured LINQ providers.
+EAPI=8
+HOMEPAGE=https://github.com/re-motion/Relinq
+INHERIT=msbuild mono-pkg-config gac
+IUSE=+net46 +debug developer doc pkg-config gac pkg-config
+KEYWORDS=amd64 ~ppc ~x86
+LICENSE=Apache2.0
+RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-lang/mono
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/re-motion/Relinq/archive/88b1055e0a737faff26c9d5e2789f520ac73ca86.tar.gz -> Relinq-2.1.2.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	msbuild	64ea878d4421c09f83331ee684673b07	mono-pkg-config	323b31014527a44410ccf6958a8afb08	gac	9eaa9a533341fdeeeb6d0a0d79a027be
+_md5_=4c69d44b0399605d3072759cffb67c8d
