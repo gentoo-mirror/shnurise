@@ -10,5 +10,5 @@ LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=dev-lang/fsharp monodevelop? ( dev-util/monodevelop ) emacs? ( >=app-editors/emacs-23.1 app-emacs/s app-emacs/dash app-emacs/auto-complete )
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	elisp-common	e7aaa047873789f549ea3df2f04b2145	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	136117fb43a9bf5598530e9cc642f710	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	elisp-common	e7aaa047873789f549ea3df2f04b2145	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fd9cde67030b26e479eeadaced488253	multilib	4fbbbc98f236f1b43acd99476bc3cd85	libtool	241a8f577b9781a42a7421e53448a44e	autotools	136117fb43a9bf5598530e9cc642f710	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b
 _md5_=c3d10564d2c1225aa84256221740058e
