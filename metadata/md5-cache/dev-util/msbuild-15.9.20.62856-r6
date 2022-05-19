@@ -1,9 +1,9 @@
 DEFINED_PHASES=compile install postinst prepare setup
 DEPEND=>=dev-lang/mono-5.2.0.196 dev-dotnet/msbuild-tasks-api:15.9 developer? ( dev-dotnet/msbuild-tasks-api:15.9[developer] ) dev-dotnet/msbuild-defaulttasks:15.9 developer? ( dev-dotnet/msbuild-defaulttasks:15.9[developer] ) roslyn? ( dev-dotnet/msbuild-roslyn-csc ) dev-dotnet/buildtools dev-lang/mono dev-dotnet/msbuild-tasks-api
 DESCRIPTION=Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/Microsoft/msbuild
-INHERIT=xbuild gac msbuild-framework
+INHERIT=wrapper xbuild gac msbuild-framework
 IUSE=+net46 +gac +mskey developer debug +roslyn symlink gac pkg-config
 KEYWORDS=amd64 arm64
 LICENSE=MIT
@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-5.2.0.196 dev-dotnet/msbuild-tasks-api:15.9 developer? (
 RESTRICT=mirror
 SLOT=15.9
 SRC_URI=https://github.com/Microsoft/msbuild/archive/88f5fadfbef809b7ed2689f72319b7d91792460e.tar.gz -> msbuild-Microsoft-15.9.20.62856.tar.gz mskey? ( https://github.com/Microsoft/msbuild/raw/master/src/MSFT.snk ) https://github.com/mono/mono/raw/master/mcs/class/mono.snk
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	xbuild	78f85876b460ad06797ed8718688042a	gac	9eaa9a533341fdeeeb6d0a0d79a027be	msbuild-framework	9a7cff90b721a249e25ad862f52532aa
-_md5_=c44fedcc91e31d9aba3dbc9a8e44a325
+_eclasses_=wrapper	4a1902f969e5718126434fc35f3a0d9c	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	xbuild	78f85876b460ad06797ed8718688042a	gac	9eaa9a533341fdeeeb6d0a0d79a027be	msbuild-framework	9a7cff90b721a249e25ad862f52532aa
+_md5_=f87277c3238a818ce850f6db1ac33a1e
