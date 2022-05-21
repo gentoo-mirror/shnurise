@@ -12,6 +12,7 @@ dev-dotnet/buildtools 1.0.27-r1: Build tools that are necessary for building the
 dev-dotnet/castle-core 1.2.0-r2 4.0.0_beta1-r1: including Castle DynamicProxy, Logging Services and DictionaryAdapter
 dev-dotnet/cecil 0.10_beta7_p2018031901-r1: System.Reflection alternative to generate and inspect .NET executables/libraries
 dev-dotnet/command-line-api 0.0.0.0_p1499-r2: Library for building command line applications with extensible middleware pipeline
+dev-dotnet/commandline 1.9.71.2-r1: C# (and F#) command line parser with standardized *nix getopt style
 dev-dotnet/dotnetzip-semverd 1.13.7: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/fluent-nhibernate 2.0.2-r1: XML-less, compile safe, automated, convention-based mappings for NHibernate
 dev-dotnet/gentoo-net-sdk 1.0.0_p3: Alternative build sequence with PkgConfig instead of NuGet
