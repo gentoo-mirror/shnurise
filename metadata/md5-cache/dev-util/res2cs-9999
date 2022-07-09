@@ -1,14 +1,14 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install prepare setup unpack
 DESCRIPTION=An utility to generate .cs from .resx
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/ArsenShnurkov/mono-packaging-tools
-INHERIT=git-r3 dotnet
+INHERIT=git-r3 wrapper dotnet
 IUSE=developer debug net45
-KEYWORDS=amd64 ~arm64
+KEYWORDS=~amd64 ~arm64
 LICENSE=GPL-2
 PROPERTIES=live live
 RESTRICT=test mirror
 SLOT=9999
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b
-_md5_=df447a13b28ff31f810048ec89aff996
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	wrapper	4a1902f969e5718126434fc35f3a0d9c	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b
+_md5_=56636343523ef30fee42f2d724b89acb
