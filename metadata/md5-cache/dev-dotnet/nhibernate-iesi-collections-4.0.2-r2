@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-5.2.0.196 dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/nhibernate/iesi.collections/archive/3e183dd3316baedac508d0171b67c3dee05f6da0.tar.gz -> nhibernate-iesi-collections-4.0.2.tar.gz
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	xbuild	78f85876b460ad06797ed8718688042a	mono-pkg-config	323b31014527a44410ccf6958a8afb08	gac	9eaa9a533341fdeeeb6d0a0d79a027be
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	xbuild	78f85876b460ad06797ed8718688042a	mono-pkg-config	b8e40877d965d43dad9b53ed6c91ce8c	gac	9eaa9a533341fdeeeb6d0a0d79a027be
 _md5_=7c1cff24671c8189dac96cf62a20a240
