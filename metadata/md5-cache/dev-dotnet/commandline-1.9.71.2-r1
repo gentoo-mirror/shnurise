@@ -12,4 +12,4 @@ RESTRICT=mirror test
 SLOT=0
 SRC_URI=https://codeload.github.com/commandlineparser/commandline/tar.gz/205094c0c135ab5b6816f3eb0e6a84ddced5b0e2 -> dev-dotnet-commandline-1.9.71.2.tar.gz
 _eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	msbuild	64ea878d4421c09f83331ee684673b07	mono-pkg-config	b8e40877d965d43dad9b53ed6c91ce8c
-_md5_=ffc60ae2ff90302fb7c3ca20e1cebbac
+_md5_=f7b69bc07f825a0376db0ff300349f85
