@@ -1,7 +1,7 @@
 DEFINED_PHASES=compile install setup
 DEPEND=dev-dotnet/msbuild-tasks-api:15.9 dev-dotnet/msbuild-tasks-api dev-dotnet/msbuild-tasks-api dev-dotnet/msbuild-tasks-api dev-util/msbuild
 DESCRIPTION=Alternative build sequence with PkgConfig instead of NuGet
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/ArsenShnurkov/mono-packaging-tools
 INHERIT=dotnet msbuild-framework dotbuildtask
 IUSE=+net45 + msbuild_targets_msbuild15-9 msbuild_targets_msbuild15-7 msbuild_targets_msbuild15-4 +msbuild debug developer net45
@@ -10,6 +10,6 @@ LICENSE=GPL-3
 RDEPEND=dev-dotnet/msbuild-tasks-api:15.9
 RESTRICT=mirror test
 SLOT=0
-SRC_URI=https://github.com/ArsenShnurkov/mono-packaging-tools/archive/47a4a4bdcff4c629df17ceb57fb790701cc83b52.tar.gz -> gentoo-net-sdk-1.0.0_p3.tar.gz
+SRC_URI=https://github.com/ArsenShnurkov/mono-packaging-tools/archive/3eae8fb31b3ad36a12ae199995f2c0479e2fd393.tar.gz -> gentoo-net-sdk-1.0.0_p4.tar.gz
 _eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	multilib	5ca4e49abed8e3a2f7b56920eadee157	toolchain-funcs	1542e649be915f43f6908a9e93909961	msbuild	64ea878d4421c09f83331ee684673b07	dotbuildtask	6e8e4e03830ae5ffd10a92c8873440e8
-_md5_=46202c1dba54d896992d0367a665923e
+_md5_=f10fd8b6a971ed3cc268919074baf736

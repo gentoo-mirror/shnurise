@@ -14,7 +14,7 @@ dev-dotnet/command-line-api 0.0.0.0_p1499-r2: Library for building command line 
 dev-dotnet/commandline 1.9.71.2-r1: C# (and F#) command line parser with standardized *nix getopt style
 dev-dotnet/dotnetzip-semverd 1.13.7: create, extract, or update zip files with C# (=DotNetZip+SemVer)
 dev-dotnet/fluent-nhibernate 2.0.2-r1: XML-less, compile safe, automated, convention-based mappings for NHibernate
-dev-dotnet/gentoo-net-sdk 1.0.0_p3: Alternative build sequence with PkgConfig instead of NuGet
+dev-dotnet/gentoo-net-sdk 1.0.0_p4: Alternative build sequence with PkgConfig instead of NuGet
 dev-dotnet/html-agility-pack 1.11.34 1.11.34_p6 9999: Html Agility Pack is a C# parser for HTML, supports plain XPATH and XSLT
 dev-dotnet/htmlparsersharp 1.0.0.0-r20150614: Validator.nu HTML Parser, a HTML5 parser, port from Java Version 1.4 to C#
 dev-dotnet/icsharpcode-nrefactory 5.5.1: NRefactory supports analysis of C# source code
