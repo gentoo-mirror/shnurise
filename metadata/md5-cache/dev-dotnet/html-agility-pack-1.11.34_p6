@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-5.2.0.196
 RESTRICT=mirror
 SLOT=6
 SRC_URI=https://github.com/zzzprojects/html-agility-pack/archive/bd8bec435e2436a6be92f47e8c3c727b602ba52e.tar.gz -> dev-dotnet-html-agility-pack-zzzprojects-1.11.34_p6.tar.gz
-_eclasses_=mono-pkg-config	b8e40877d965d43dad9b53ed6c91ce8c	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	msbuild	64ea878d4421c09f83331ee684673b07
+_eclasses_=mono-pkg-config	b8e40877d965d43dad9b53ed6c91ce8c	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	msbuild	ff9785708b8789f159967d5804c16961
 _md5_=984a79bccafd1300352e8107dd560a90
