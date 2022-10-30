@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-6 dev-dotnet/command-line-api dev-dotnet/ssh-config-pars
 RESTRICT=mirror test
 SLOT=0
 SRC_URI=https://codeload.github.com/ArsenShnurkov/sftp-file-transfer/tar.gz/ec82dd2374a0d731b4c4ae29fee2476135ea4f00 -> dev-util-sftp-file-transfer-0.0.0.0_p2.tar.gz
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	da1e5153d195800651bf89367dab12cc
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff
 _md5_=cfadec503da438f16735e289b4561328
