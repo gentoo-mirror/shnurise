@@ -10,5 +10,5 @@ LICENSE=MIT
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/macias/NaiveLanguageTools/archive/d40aadc15824361639b766a4bbe4b1f69a68d996.tar.gz -> dev-util-naive-language-tools-1.13.11.16.tar.gz
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	xbuild	78f85876b460ad06797ed8718688042a	mono-pkg-config	b8e40877d965d43dad9b53ed6c91ce8c
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	da1e5153d195800651bf89367dab12cc	xbuild	78f85876b460ad06797ed8718688042a	mono-pkg-config	2b3ab6b44145dd0471dfbbd060c9e780
 _md5_=e7e58b090c44ee5c5079d61808409aa5

@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install prepare setup unpack
-DEPEND=>=dev-lang/mono-5.2.0.196 virtual/pkgconfig dev-dotnet/msbuild-tasks-api dev-util/msbuild
+DEPEND=>=dev-lang/mono-5.2.0.196 virtual/pkgconfig dev-dotnet/msbuild-tasks-api virtual/pkgconfig dev-lang/mono dev-util/msbuild
 DESCRIPTION=Html Agility Pack is a C# parser for HTML, supports plain XPATH and XSLT
 EAPI=7
 HOMEPAGE=https://html-agility-pack.net/
 INHERIT=mono-pkg-config git-r3 msbuild
-IUSE=debug developer pkg-config pkg-config
+IUSE=debug developer pkg-config pkg-config pkg-config gac pkg-config
 KEYWORDS=~amd64 ~arm64
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=>=dev-lang/mono-5.2.0.196
+RDEPEND=>=dev-lang/mono-5.2.0.196 dev-lang/mono
 SLOT=9999
-_eclasses_=mono-pkg-config	b8e40877d965d43dad9b53ed6c91ce8c	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	msbuild	ff9785708b8789f159967d5804c16961
-_md5_=984a79bccafd1300352e8107dd560a90
+_eclasses_=mono-pkg-config	2b3ab6b44145dd0471dfbbd060c9e780	git-r3	b9ac6f96d2a88edb5b351df634dc5e53	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	da1e5153d195800651bf89367dab12cc	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	gac	9eaa9a533341fdeeeb6d0a0d79a027be	wrapper	4a1902f969e5718126434fc35f3a0d9c	msbuild	4599f64bb7604fd4e9a16c67c3ad5d0a
+_md5_=1da3172e9d281a57297a9ee1a1a6fe19

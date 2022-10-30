@@ -1,15 +1,15 @@
 DEFINED_PHASES=compile install prepare setup
-DEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-dotnet/msbuild-tasks-api dev-util/msbuild virtual/pkgconfig dev-dotnet/msbuild-tasks-api dev-util/msbuild
+DEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-dotnet/msbuild-tasks-api virtual/pkgconfig dev-lang/mono dev-util/msbuild virtual/pkgconfig dev-dotnet/msbuild-tasks-api virtual/pkgconfig dev-lang/mono dev-util/msbuild
 DESCRIPTION=Console utility for requesting certificates
 EAPI=8
 HOMEPAGE=https://github.com/ArsenShnurkov/acme.net
 INHERIT=dotnet msbuild mono-pkg-config gentoo-net-sdk
-IUSE=+net45 pkg-config debug developer source net45 net45 pkg-config net45 net45
+IUSE=+net45 pkg-config debug developer source net45 net45 pkg-config gac pkg-config pkg-config net45 net45 pkg-config gac pkg-config
 KEYWORDS=amd64 arm64
 LICENSE=MIT
-RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999
+RDEPEND=>=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 dev-lang/mono dev-lang/mono
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://codeload.github.com/ArsenShnurkov/acme.net/tar.gz/8e03587bc84a41d55b6a2466150ff04685a20df3 -> dev-util-acmenet-tools-0.0.65_p2022082614.tar.gz
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	2e257b2e1bc445bf3f8907ff96c9f02b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	msbuild	ff9785708b8789f159967d5804c16961	mono-pkg-config	b8e40877d965d43dad9b53ed6c91ce8c	gentoo-net-sdk	e1789c92a3dbcc21aa9866f970f2bf1a
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	da1e5153d195800651bf89367dab12cc	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	mono-pkg-config	2b3ab6b44145dd0471dfbbd060c9e780	gac	9eaa9a533341fdeeeb6d0a0d79a027be	wrapper	4a1902f969e5718126434fc35f3a0d9c	msbuild	4599f64bb7604fd4e9a16c67c3ad5d0a	gentoo-net-sdk	e1789c92a3dbcc21aa9866f970f2bf1a
 _md5_=5ed77bc18541cafd89f7d8d6cd296e06

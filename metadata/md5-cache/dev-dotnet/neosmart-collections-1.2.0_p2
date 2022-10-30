@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install prepare setup
+DEPEND=dev-dotnet/msbuild-tasks-api virtual/pkgconfig dev-lang/mono dev-util/msbuild
+DESCRIPTION=Collections in C# language for specific cases
+EAPI=8
+HOMEPAGE=https://github.com/neosmart/collections
+INHERIT=gentoo-net-sdk
+IUSE=+pkg-config debug developer pkg-config gac pkg-config
+KEYWORDS=amd64 arm64
+LICENSE=MIT
+RDEPEND=dev-lang/mono
+SLOT=0
+SRC_URI=https://github.com/neosmart/collections/archive/53d3cd2a38a4a4dc7ebf1a28c9cadd95291be0de.zip -> dev-dotnet-neosmart-collections-1.2.0_p2.zip
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	da1e5153d195800651bf89367dab12cc	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	mono-pkg-config	2b3ab6b44145dd0471dfbbd060c9e780	gac	9eaa9a533341fdeeeb6d0a0d79a027be	wrapper	4a1902f969e5718126434fc35f3a0d9c	msbuild	4599f64bb7604fd4e9a16c67c3ad5d0a	gentoo-net-sdk	e1789c92a3dbcc21aa9866f970f2bf1a
+_md5_=1dc560c1423b4f979659751908b84589
