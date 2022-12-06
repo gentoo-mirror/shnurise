@@ -10,5 +10,5 @@ LICENSE=LGPL-2 MIT Apache-2.0 GPL-2 GPL-2-with-classpath-exception GPL-2-with-li
 PROPERTIES=live
 RDEPEND=>=dev-lang/mono-4.4.1 >=dev-dotnet/gtk-sharp-2.12.21:2 >=dev-dotnet/nuget-2.8.7 dev-dotnet/referenceassemblies-pcl >=dev-lang/fsharp-4.0.1.15 net-libs/libssh2 dev-util/ctags sys-apps/dbus[X] >=www-servers/xsp-2 git? ( dev-vcs/git ) subversion? ( dev-vcs/subversion )
 SLOT=0
-_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a	toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	git-r3	2347f8fe2d392b2a091191f94be37e6f
+_eclasses_=xdg-utils	ac0e315a3688929e34ac75b139e7349a	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	git-r3	2347f8fe2d392b2a091191f94be37e6f
 _md5_=4b7ff819e13112f02530477a573edc1d
