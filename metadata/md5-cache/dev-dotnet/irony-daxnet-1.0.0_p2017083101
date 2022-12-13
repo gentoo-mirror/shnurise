@@ -11,5 +11,5 @@ RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-lang/mono dev-l
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/daxnet/irony/archive/ed2aa3ed74b53b1655a2b196d34a1bc20d4e6ce1.tar.gz -> irony-daxnet-1.0.0_p2017083101.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	mono-pkg-config	85423175042bacae6b3babff8df9a610	gac	9eaa9a533341fdeeeb6d0a0d79a027be	wrapper	4a1902f969e5718126434fc35f3a0d9c	msbuild	36cb6c3f86b2f8fc051d333bf16d985d
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	mono-pkg-config	85423175042bacae6b3babff8df9a610	gac	9eaa9a533341fdeeeb6d0a0d79a027be	msbuild	4deaddb9a092744ad83227e844569433
 _md5_=78f6c564b030a357b55535aa7a9726ff

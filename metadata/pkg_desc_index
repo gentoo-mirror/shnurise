@@ -77,3 +77,4 @@ dev-util/t4 1.3.1_p2018020903-r1:
 media-gfx/pinta 1.6: Simple Painting for Gtk
 www-apache/mod_mono 3.13_p20200408-r1: Apache module for Mono
 www-apps/orchard-cms 1.7.3-r3: CMS written with CSharp
+www-servers/xsp 4.7.1_p20210126: XSP is a small web server that can host ASP.NET pages
