@@ -22,6 +22,7 @@ dev-dotnet/icsharpcode-texteditor 3.2.2_p2018020702-r2: ICSharpCode.TextEditor l
 dev-dotnet/ikvm 7.2.4630.5 7.2.4630.5_p201602270: Java VM for .NET
 dev-dotnet/ikvm-bin 7.2.4630.5: Java VM for .NET
 dev-dotnet/irony-daxnet 1.0.0_p2017083101: parsing framework for C# on LALR(1)
+dev-dotnet/libgdiplus 6.0.5_p75-r8: Library for using System.Drawing with mono
 dev-dotnet/log4net 2.0.12: tool to help the programmer output log statements to a variety of output targets
 dev-dotnet/microsoft-extensions-commandlineutils 2.3.4: Command line parsing and utilities for .NET Core and .NET Framework
 dev-dotnet/microsoft-net-sdk 2.1.300-r1: 'Microsoft.NET.Sdk' for msbuild
