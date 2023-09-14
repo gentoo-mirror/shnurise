@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-4.0.2.5 dev-lang/mono
 RESTRICT=mirror
 SLOT=4
 SRC_URI=https://github.com/castleproject/Core/archive/v4.0.0-beta001.tar.gz -> castle-core-4.0.0_beta1.tar.gz
-_eclasses_=gac	9eaa9a533341fdeeeb6d0a0d79a027be	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff
+_eclasses_=gac	9eaa9a533341fdeeeb6d0a0d79a027be	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b
 _md5_=cd56f88040227950a0ac6ac53d4255f4

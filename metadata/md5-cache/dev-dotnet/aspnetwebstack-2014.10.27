@@ -9,5 +9,5 @@ LICENSE=Apache-2.0
 RDEPEND=dev-lang/mono dev-dotnet/xsp
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/aspnetwebstack/archive/aspnetwebstack-2014.10.27.tar.gz
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b
 _md5_=a6b7fa9f35502b58bb5bb1a5d74eb3b1

@@ -9,5 +9,5 @@ KEYWORDS=amd64
 LICENSE=MIT
 RESTRICT=mirror
 SLOT=4.5.0
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	mono-pkg-config	85423175042bacae6b3babff8df9a610
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	mono-pkg-config	85423175042bacae6b3babff8df9a610
 _md5_=2d15076670335603aeb1803909c4b0bf

@@ -11,5 +11,5 @@ RDEPEND=dev-dotnet/autofac:2 dev-dotnet/autofac-configuration:2 dev-dotnet/castl
 RESTRICT=mirror
 SLOT=173
 SRC_URI=https://github.com/OrchardCMS/Orchard/archive/e737aa08ec3068a8e4f6057550e6df3d0884cabf.tar.gz -> www-apps-orchard-cms-1.7.3.tar.gz
-_eclasses_=mpt-r20150903	ce9146f2c1bec5bd05cd736f7e2454d2	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	xbuild	78f85876b460ad06797ed8718688042a
+_eclasses_=mpt-r20150903	ce9146f2c1bec5bd05cd736f7e2454d2	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	xbuild	78f85876b460ad06797ed8718688042a
 _md5_=3ebab199ee79253ee4cb4671b0935232

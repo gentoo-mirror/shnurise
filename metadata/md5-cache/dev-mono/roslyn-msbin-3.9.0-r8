@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst prepare setup unpack
+DESCRIPTION=Roslyn binary files compiled by Microsoft and repackaged by mono team
+EAPI=8
+HOMEPAGE=https://github.com/mono/roslyn-binaries
+INHERIT=vcs-snapshot multilib dotnet
+IUSE=+net45 +symlink net45
+KEYWORDS=amd64 arm64
+LICENSE=MIT
+RDEPEND=app-admin/eselect app-eselect/eselect-roslyn
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://codeload.github.com/mono/roslyn-binaries/tar.gz/1c6482470cd219dcc7503259a20f26a1723f20ec -> roslyn-msbin-3.9.0.tar.gz
+_eclasses_=vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	862d337d98edb576796827be2c6b11ca	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b
+_md5_=ca468956eb3bf10e1f85b24c0f27c68f

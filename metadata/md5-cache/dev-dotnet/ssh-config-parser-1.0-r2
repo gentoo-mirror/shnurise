@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-6
 RESTRICT=mirror test
 SLOT=0
 SRC_URI=https://codeload.github.com/JeremySkinner/Ssh-Config-Parser/tar.gz/04152ebc42ff81b11497cdbacfeb7ab95e79b37f -> dev-dotnet-ssh-config-parser-1.0.tar.gz
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	mono-pkg-config	85423175042bacae6b3babff8df9a610
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	mono-pkg-config	85423175042bacae6b3babff8df9a610
 _md5_=8cac334441fea001ec9fabcd9aa2175c

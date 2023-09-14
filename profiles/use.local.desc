@@ -19,8 +19,8 @@ dev-dotnet/ssh-config-parser:developer - enables debug information for any of de
 dev-dotnet/ssh-config-parser:nupkg - creates local nuget package
 dev-gaclibs/Autopsy-Formats-PeCoff:debug - Create .mdb files for release configuration
 dev-gaclibs/github-api:debug - Create .mdb files for release configuration
-dev-lang/mono-tarball:pax-kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
-dev-lang/mono-tarball:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
+dev-mono/mono-tarball:pax-kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
+dev-mono/mono-tarball:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
 dev-util/fsharpbinding:monodevelop - Install monodevelop binding
 dev-util/mono-packaging-tools:aot - compile to machine code and store to disk during install, to save time later during startups
 dev-util/monodevelop:git - Enable Git version control support

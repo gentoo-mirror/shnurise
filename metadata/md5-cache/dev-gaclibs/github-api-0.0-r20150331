@@ -10,5 +10,5 @@ LICENSE=MIT
 RDEPEND=>=dev-lang/mono-3.0
 SLOT=0
 SRC_URI=https://github.com/gitextensions/Git.hub/archive/46304b521bb26414a9f1e998a315cd35039a4837.zip -> github-api-0.0-r20150331.zip
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b
 _md5_=f158eb297b1ba50638f460b06102facb

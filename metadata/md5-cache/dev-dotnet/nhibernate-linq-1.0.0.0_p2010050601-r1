@@ -11,5 +11,5 @@ RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-dotnet/nhiberna
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/pruiz/nhibernate-contrib-old/archive/eada73cce086a6457e5e64b0413b97a8f53863ac.tar.gz -> dev-dotnet-nhibernate-linq-1.0.0.0_p2010050601.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	mono-pkg-config	85423175042bacae6b3babff8df9a610	gac	9eaa9a533341fdeeeb6d0a0d79a027be	msbuild	4deaddb9a092744ad83227e844569433
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	mono-pkg-config	85423175042bacae6b3babff8df9a610	gac	9eaa9a533341fdeeeb6d0a0d79a027be	msbuild	4deaddb9a092744ad83227e844569433
 _md5_=450f2fb8a545f29dcb1a025b3f1e54a8

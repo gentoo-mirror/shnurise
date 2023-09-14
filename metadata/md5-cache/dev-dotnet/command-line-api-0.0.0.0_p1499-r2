@@ -11,5 +11,5 @@ RDEPEND=>=dev-lang/mono-6
 RESTRICT=mirror test
 SLOT=0
 SRC_URI=https://codeload.github.com/dotnet/command-line-api/tar.gz/0c8d7fea8bf5f3e8eefa1e1040accaf2a1117b2b -> dev-dotnet-command-line-api-0.0.0.0_p1499.tar.gz
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	7d567cb9e58ed59c5bbf537071b970ff	mono-pkg-config	85423175042bacae6b3babff8df9a610
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	mono-pkg-config	85423175042bacae6b3babff8df9a610
 _md5_=61f623b72fc56b2ae5a78bf2a0695244
