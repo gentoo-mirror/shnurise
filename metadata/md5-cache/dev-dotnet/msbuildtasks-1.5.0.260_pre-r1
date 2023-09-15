@@ -10,6 +10,6 @@ LICENSE=BSD
 RDEPEND=>=dev-lang/mono-4.0.2.5 >=dev-dotnet/dotnetzip-semverd-1.9.3-r4 dev-dotnet/msbuild-tasks-api dev-lang/mono
 RESTRICT=mirror
 SLOT=1
-SRC_URI=https://github.com/loresoft/msbuildtasks/archive/abaab03d71fc07b020a860f6d407f6814cb0f6d5.tar.gz -> msbuildtasks-1.5.0.260.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+SRC_URI=https://github.com/loresoft/msbuildtasks/archive/abaab03d71fc07b020a860f6d407f6814cb0f6d5.tar.gz -> msbuildtasks-1.5.0.260.tar.gz https://github.com/mono/mono/raw/main/mcs/class/mono.snk
 _eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	xbuild	78f85876b460ad06797ed8718688042a	gac	9eaa9a533341fdeeeb6d0a0d79a027be
-_md5_=beaea87b06800ecc25625a3a010bbb6d
+_md5_=725ae1f78f5b3b6c00c47537a0367970

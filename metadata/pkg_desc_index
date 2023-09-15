@@ -65,7 +65,7 @@ dev-util/asmspy 1.2.0: Simple command line assembly reference checker
 dev-util/fsharpbinding 9999: The F# Compiler
 dev-util/gplex-dbremner 1.2.2_p2015112101-r2: C# version of lex (Garden Point Lex)
 dev-util/gppg-dbremner 1.5.2_p2015112101-r2: C# version of lex (Garden Point Lex)
-dev-util/monodevelop 5.9.5.9 5.10.0.609 5.10.3.51 6.0.0.4761 6.1_p2016062206 9999: Integrated Development Environment for .NET
+dev-util/monodevelop 5.9.5.9 5.10.0.609 5.10.3.51 6.0.0.4761 7.8.4.1 9999: Integrated Development Environment for .NET
 dev-util/msbuild 15.9.20.62856-r7: Microsoft Build Engine (MSBuild) is an XML-based platform for building applications
 dev-util/msbuild-meta 15.9-r1: 
 dev-util/naive-language-tools 1.13.11.16: Free, open-source C# lexer and GLR parser suite

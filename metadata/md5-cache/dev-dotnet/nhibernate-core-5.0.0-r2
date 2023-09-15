@@ -10,6 +10,6 @@ LICENSE=LGPL-2.1
 RDEPEND=|| ( >=dev-lang/mono-5.4.0.167 <dev-lang/mono-9999 ) dev-lang/mono dev-lang/mono
 RESTRICT=mirror
 SLOT=5
-SRC_URI=https://github.com/nhibernate/nhibernate-core/archive/c2c93d979611463b5a3fb12c4d27bb78d86de9d4.tar.gz -> dev-dotnet-nhibernate-core-5.0.0.tar.gz https://github.com/mono/mono/raw/master/mcs/class/mono.snk
+SRC_URI=https://github.com/nhibernate/nhibernate-core/archive/c2c93d979611463b5a3fb12c4d27bb78d86de9d4.tar.gz -> dev-dotnet-nhibernate-core-5.0.0.tar.gz https://github.com/mono/mono/raw/main/mcs/class/mono.snk
 _eclasses_=mpt-r20150903	ce9146f2c1bec5bd05cd736f7e2454d2	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	msbuild-framework	9a7cff90b721a249e25ad862f52532aa	mono-pkg-config	85423175042bacae6b3babff8df9a610	gac	9eaa9a533341fdeeeb6d0a0d79a027be	msbuild	4deaddb9a092744ad83227e844569433
-_md5_=58df5b7b55b8ffc974dd1de0aaa4a9f1
+_md5_=f74c6340d23187be0fb25d228b537a26
