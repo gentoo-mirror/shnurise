@@ -32,7 +32,7 @@ dev-dotnet/msbuildtasks 1.5.0.260_pre-r1: The MSBuild Community Tasks Project is
 dev-dotnet/ndepend-path 0.0_p20151123-r5: C# framework for paths operations: Absolute, Drive Letter, UNC, Relative, prefix
 dev-dotnet/neosmart-collections 1.2.0_p2: Collections in C# language for specific cases
 dev-dotnet/netinfra 0.0.0_p4-r1: classes to store configuration of computers
-dev-dotnet/newtonsoft-json 6.0.8-r2 10.0.3: Json.NET is a popular high-performance JSON framework for .NET
+dev-dotnet/newtonsoft-json 13.0.3: Json.NET is a popular high-performance JSON framework for .NET
 dev-dotnet/nhibernate 4.1.1: NHibernate Object Relational Mapper
 dev-dotnet/nhibernate-core 3.3.4-r2 5.0.0-r2: NHibernate Object Relational Mapper
 dev-dotnet/nhibernate-iesi-collections 4.0.2-r2: C#, LinkedHashSet<T>, SynchronizedSet<T>, ReadOnlySet<T>
