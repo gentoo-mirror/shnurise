@@ -1,4 +1,4 @@
-BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20240116 || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3
 DEFINED_PHASES=compile configure install postinst prepare setup unpack
 DEPEND==www-servers/apache-2* >=dev-lang/mono-3.13_p20200408 virtual/pkgconfig
 DESCRIPTION=Apache module for Mono
@@ -12,5 +12,5 @@ RDEPEND=>=www-servers/xsp-4.4 =www-servers/apache-2* >=dev-lang/mono-3.13_p20200
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/mono/mod_mono/archive/96a6b55d69da2807ed32a362e0d9b6f19e2a8a30.tar.gz -> mod_mono-3.13_p20200408.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	3af8f60c4bdb23e738db506a630898ee	depend.apache	27a82685eec34e3bab80641f46b5bb58	apache-module-r8	2e697be806ba83e1a2f1da1577079911	mono-r8	de05b91a1690b26bcff06f8435d12649	go-mono	143cf95b42ca3aad944c12de1fb4956b	mono-env	60554e038c8ac2b080e23e280ad8382b
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	3af8f60c4bdb23e738db506a630898ee	depend.apache	27a82685eec34e3bab80641f46b5bb58	apache-module-r8	2e697be806ba83e1a2f1da1577079911	mono-r8	de05b91a1690b26bcff06f8435d12649	go-mono	143cf95b42ca3aad944c12de1fb4956b	mono-env	60554e038c8ac2b080e23e280ad8382b
 _md5_=4480ba2bf8592d38056ccd035a8476d4
