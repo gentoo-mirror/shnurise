@@ -1,4 +1,4 @@
-BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20240116 || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3
+BDEPEND=>=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3
 DEFINED_PHASES=compile configure install prepare setup unpack
 DEPEND=>=dev-lang/mono-4.0.2.5 sys-apps/sed
 DESCRIPTION=Validator.nu HTML Parser, a HTML5 parser, port from Java Version 1.4 to C#
@@ -10,5 +10,5 @@ LICENSE=MPL
 RDEPEND=>=dev-lang/mono-4.0.2.5
 SLOT=0
 SRC_URI=https://github.com/jamietre/HtmlParserSharp/archive/2a450f49bb908d50461eae95dd4f74b872b5094e.zip -> htmlparsersharp-1.0.0.0-r20150614.zip
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	3af8f60c4bdb23e738db506a630898ee	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b
+_eclasses_=gnuconfig	a397adda6984a4c423e28ac274c1ba98	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	dc70c1dc473b68317fc4a86f5fbfc57d	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b
 _md5_=596a34e39b03d93d3ddc7e54f97c8c79
