@@ -10,5 +10,5 @@ RDEPEND=app-admin/eselect app-eselect/eselect-roslyn
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://codeload.github.com/mono/roslyn-binaries/tar.gz/1c6482470cd219dcc7503259a20f26a1723f20ec -> roslyn-msbin-3.9.0.tar.gz
-_eclasses_=vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b
+_eclasses_=vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b
 _md5_=ca468956eb3bf10e1f85b24c0f27c68f
