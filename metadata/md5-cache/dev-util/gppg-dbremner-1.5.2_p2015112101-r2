@@ -9,5 +9,5 @@ LICENSE=BSD
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/ArsenShnurkov/shnurise-tarballs/archive/dev-util/gppg-dbremner/gppg-dbremner-1.5.2_p2015112101.tar.gz -> dev-util-gppg-dbremner-1.5.2_p2015112101.tar.gz
-_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	xbuild	78f85876b460ad06797ed8718688042a	wrapper	8814ba474de61a773949805b4d85007d
+_eclasses_=mono-env	60554e038c8ac2b080e23e280ad8382b	dotnet-native	69e00aef21b76b9424acb08943a24848	dotnet	720abd1b90341fe43fd3e1e4abd62a8b	xbuild	78f85876b460ad06797ed8718688042a	wrapper	11a2a3bd712784986679b60a0cab34a0
 _md5_=4b946974d9275a99973b4fa32b5bc2c6
